@@ -5,10 +5,10 @@ library(RColorBrewer)
 library(wordcloud)
 
 #Assign keys and tokens
-ckey <-  "1iNPiqNhOwmaLgWBGRMdbmxVX"
-cskey <- "NBllZVtZjgAMzat7SGi4LP1it3PBApz513sjOyp9KimzosTDd7"
-atok <- "956735166-ffILPzaFbKBYu79mXXcgn6sdFwOcPynPwHSFd5on"
-astoken <- "0m1OuTR48dUj9aao5SEZpvlj7YmuYKsldMDD2QZ8Q1X9O"
+ckey <-  "consumerkey"
+cskey <- "consumersecretkey"
+atok <- "AccessToken"
+astoken <- "Access secret Token"
 
 #Log into twitter
 setup_twitter_oauth(ckey,cskey,atok,astoken)
